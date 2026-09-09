@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UA in South Korea | Summer 2027 Study Abroad</title>
+<meta name="description" content="Three weeks in Korea with the University of Alabama's Advertising & Public Relations program. Six credit hours, Seoul and Jeju, May 27 - June 17, 2027.">
+<meta property="og:title" content="UA in South Korea | Summer 2027">
+<meta property="og:description" content="Three weeks studying advertising and public relations in Korea. Six credits. Seoul and Jeju. May 27 - June 17, 2027.">
+<meta property="og:image" content="images/2026/hero.jpg">
+<meta property="og:type" content="website">
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;600;700&family=Karla:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#FAF8F0; --paper-2:#F1EEE0; --ink:#16170F; --ink-soft:#3D3E31;
+    --stone:#6E6B58; --line:#DCD8C6;
+    --olive:#8E8829; --olive-bright:#BFB658; --crimson:#9E1B32;
+    --card:#FFFFFF; --shadow:0 1px 0 rgba(22,23,15,.06);
+    /* the dark bands stay dark in both themes */
+    --band:#14150E; --band-ink:#F3F1E4; --band-soft:#BFBCA8; --band-line:#2E2F22;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#14150E; --paper-2:#1D1E14; --ink:#F3F1E4; --ink-soft:#CFCCB8;
+      --stone:#9C9884; --line:#2E2F22;
+      --olive:#C9C05F; --olive-bright:#BFB658; --crimson:#E4677C;
+      --card:#1B1C12; --shadow:none;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14150E; --paper-2:#1D1E14; --ink:#F3F1E4; --ink-soft:#CFCCB8;
+    --stone:#9C9884; --line:#2E2F22;
+    --olive:#C9C05F; --olive-bright:#BFB658; --crimson:#E4677C;
+    --card:#1B1C12; --shadow:none;
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:Karla,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;
+       -webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  h1,h2,h3{font-family:"Archivo Black",Impact,"Helvetica Neue",sans-serif;font-weight:400;
+           letter-spacing:-.01em;text-wrap:balance;margin:0}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .eyebrow{font-family:Archivo,sans-serif;font-weight:700;font-size:12.5px;letter-spacing:.16em;
+           text-transform:uppercase;color:var(--olive)}
+  .lede{font-size:20px;line-height:1.55;color:var(--ink-soft);max-width:62ch}
+  section{padding:84px 0}
+  .rule{height:1px;background:var(--line);border:0;margin:0}
+  h2{font-size:clamp(28px,4vw,40px);line-height:1.05;margin:14px 0 18px}
+
+  /* nav */
+  .nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);
+       backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;gap:24px;height:62px}
+  .mark{font-family:"Archivo Black",sans-serif;font-size:15px;letter-spacing:.02em;white-space:nowrap}
+  .mark span{color:var(--olive)}
+  .navlinks{display:flex;gap:20px;margin-left:auto;font-size:14.5px;font-weight:500}
+  .navlinks a{text-decoration:none;color:var(--ink-soft);white-space:nowrap}
+  .navlinks a:hover{color:var(--ink)}
+  .btn{display:inline-block;background:var(--crimson);color:#fff;text-decoration:none;
+       font-family:Archivo,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;
+       text-transform:uppercase;padding:11px 18px;border-radius:2px}
+  .btn:hover{filter:brightness(1.08)}
+  .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  :is(a,button):focus-visible{outline:3px solid var(--olive-bright);outline-offset:3px}
+
+  /* hero */
+  .hero{position:relative;min-height:560px;display:flex;align-items:flex-end;
+        background:var(--band);overflow:hidden}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 42%}
+  .hero .scrim{position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(10,11,6,.74) 0%,rgba(10,11,6,.34) 42%,rgba(10,11,6,.90) 100%)}
+  .hero .wrap{position:relative;padding-top:120px;padding-bottom:52px;color:#fff}
+  .hero .eyebrow{color:#E4DF9A}
+  .hero h1{font-size:clamp(40px,7vw,76px);line-height:.98;margin:16px 0 18px;color:#fff}
+  .hero p{font-size:clamp(17px,2.2vw,21px);color:#F0EEE0;max-width:46ch;margin:0 0 26px}
+  .hero .cta{display:flex;flex-wrap:wrap;gap:12px}
+  .hero .btn.ghost{color:#fff;border-color:rgba(255,255,255,.7)}
+
+  /* facts */
+  .facts{background:var(--paper-2);border-bottom:1px solid var(--line)}
+  .facts ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
+  .facts li{padding:26px 8px 28px;border-left:1px solid var(--line);text-align:center}
+  .facts li:first-child{border-left:0}
+  .facts b{display:block;font-family:"Archivo Black",sans-serif;font-size:29px;line-height:1;
+           font-variant-numeric:tabular-nums}
+  .facts small{display:block;margin-top:8px;font-family:Archivo,sans-serif;font-size:12px;
+               letter-spacing:.13em;text-transform:uppercase;color:var(--stone)}
+
+  .split{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
+  .stack{display:flex;flex-direction:column;gap:18px}
+  .photo{border-radius:3px;overflow:hidden;box-shadow:var(--shadow)}
+  .photo img{width:100%;height:100%;object-fit:cover}
+  .cap{margin-top:8px;font-size:13.5px;color:var(--stone)}
+
+  /* video */
+  .film{background:var(--band);color:var(--band-ink)}
+  .film h2{color:var(--band-ink)}
+  .film .eyebrow{color:var(--olive-bright)}
+  .film p.sub{color:var(--band-soft);max-width:60ch;margin:0 0 26px}
+  .film video{width:100%;height:auto;border-radius:4px;background:#000;display:block}
+  .film .frame{border:1px solid var(--band-line);border-radius:5px;overflow:hidden}
+
+  /* courses */
+  .courses{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:34px}
+  .course{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--olive-bright);
+          padding:26px 26px 24px;display:flex;flex-direction:column;gap:10px}
+  .course .code{font-family:Archivo,sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;
+                text-transform:uppercase;color:var(--olive)}
+  .course h3{font-size:22px;line-height:1.15}
+  .course .who{font-size:15px;color:var(--stone)}
+  .course p{margin:0;font-size:16px;color:var(--ink-soft)}
+  .note{margin-top:22px;padding:16px 20px;background:var(--paper-2);border-left:5px solid var(--olive-bright);
+        font-size:16px}
+  .note b{font-family:"Archivo Black",sans-serif;font-weight:400}
+
+  /* tiles */
+  .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+  .tiles.four{grid-template-columns:repeat(4,1fr)}
+  .tile figure{margin:0}
+  .tile img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px}
+  .tile h3{font-size:17px;margin-top:12px}
+  .tile p{margin:5px 0 0;font-size:15px;color:var(--stone)}
+
+  /* itinerary */
+  .route{margin-top:34px;border-top:1px solid var(--line)}
+  .stop{display:grid;grid-template-columns:120px 1fr 260px;gap:26px;align-items:center;
+        padding:24px 0;border-bottom:1px solid var(--line)}
+  .stop .n{font-family:Archivo,sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.14em;
+           text-transform:uppercase;color:var(--olive)}
+  .stop h3{font-size:21px}
+  .stop p{margin:4px 0 0;color:var(--ink-soft);font-size:16px}
+  .stop img{width:100%;height:110px;object-fit:cover;border-radius:3px}
+  .stop.varies .n{color:var(--crimson)}
+
+  /* gallery */
+  .gallery{background:var(--paper-2)}
+  .yearblock{margin-top:40px}
+  .yearhead{display:flex;align-items:baseline;gap:14px;padding-bottom:10px;border-bottom:2px solid var(--olive-bright)}
+  .yearhead h3{font-size:26px;font-variant-numeric:tabular-nums}
+  .yearhead span{font-size:14.5px;color:var(--stone)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+  .grid figure{margin:0}
+  .grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:3px}
+  .grid figcaption{margin-top:6px;font-size:13px;color:var(--stone)}
+  .soon{margin-top:18px;padding:22px;border:1.5px dashed var(--line);border-radius:3px;
+        color:var(--stone);font-size:15.5px;text-align:center}
+
+  /* testimonials */
+  .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px}
+  .quote{background:var(--card);border:1px solid var(--line);padding:26px 24px;display:flex;
+         flex-direction:column;gap:14px;break-inside:avoid}
+  .quote p{margin:0;font-size:16.5px;line-height:1.55}
+  .quote .who{margin-top:auto;font-size:14.5px;line-height:1.35}
+  .quote .who b{font-family:Archivo,sans-serif;font-weight:700;color:var(--olive);display:block;
+                font-size:14px;letter-spacing:.03em}
+  .quote .who span{color:var(--stone);font-size:13.5px}
+  .qmark{font-family:"Archivo Black",sans-serif;font-size:34px;line-height:.6;color:var(--olive-bright)}
+
+  /* faculty */
+  .faculty{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:30px}
+  .prof{border:1px solid var(--line);padding:24px;background:var(--card)}
+  .prof h3{font-size:20px}
+  .prof p{margin:6px 0 0;color:var(--ink-soft);font-size:16px}
+  .prof a{color:var(--crimson);font-weight:700;text-decoration:none}
+  .prof a:hover{text-decoration:underline}
+
+  /* apply */
+  .apply{background:var(--band);color:var(--band-ink);border-top:1px solid var(--band-line)}
+  .apply h2{color:var(--band-ink)}
+  .apply .eyebrow{color:var(--olive-bright)}
+  .apply .lede{color:var(--band-soft)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin:34px 0 30px}
+  .step{border-top:3px solid var(--olive-bright);padding-top:16px}
+  .step b{display:block;font-family:Archivo,sans-serif;font-size:12.5px;letter-spacing:.14em;
+          text-transform:uppercase;color:var(--olive-bright)}
+  .step h3{font-size:19px;margin:8px 0 6px;color:var(--band-ink)}
+  .step p{margin:0;color:var(--band-soft);font-size:15.5px}
+
+  footer{background:var(--band);color:var(--band-soft);border-top:1px solid var(--band-line);
+         padding:34px 0 46px;font-size:14.5px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:baseline}
+  footer a{color:#DCD8C6;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+
+  @media (max-width:900px){
+    section{padding:60px 0}
+    .split,.courses,.quotes,.faculty,.steps{grid-template-columns:1fr;gap:26px}
+    .tiles,.tiles.four,.grid{grid-template-columns:1fr 1fr;gap:14px}
+    .facts ul{grid-template-columns:1fr 1fr}
+    .facts li:nth-child(3){border-left:0}
+    .facts li:nth-child(n+3){border-top:1px solid var(--line)}
+    .stop{grid-template-columns:1fr;gap:8px}
+    .stop img{display:none}
+    .navlinks{display:none}
+    .hero{min-height:480px}
+  }
+</style>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="mark">UA IN <span>SOUTH KOREA</span></div>
+    <div class="navlinks">
+      <a href="#program">Program</a>
+      <a href="#courses">Courses</a>
+      <a href="#itinerary">Where you go</a>
+      <a href="#gallery">Photos</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faculty">Faculty</a>
+    </div>
+    <a class="btn" href="https://studyabroad.ua.edu" target="_blank" rel="noopener">Apply</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img src="images/2026/hero.jpg" alt="UA students standing on the MBC Newsdesk anchor set in Seoul">
+  <div class="scrim"></div>
+  <div class="wrap">
+    <p class="eyebrow">The University of Alabama &middot; Advertising &amp; Public Relations</p>
+    <h1>Korea, up close.</h1>
+    <p>Three weeks studying advertising and public relations where K-pop, global brands, and 5,000 years of history share the same street. <strong>May 27 &ndash; June 17, 2027.</strong></p>
+    <div class="cta">
+      <a class="btn" href="https://studyabroad.ua.edu" target="_blank" rel="noopener">Apply through Education Abroad</a>
+      <a class="btn ghost" href="#film">Watch the trip</a>
+    </div>
+  </div>
+</header>
+
+<div class="facts">
+  <div class="wrap">
+    <ul>
+      <li><b>3</b><small>Weeks in country</small></li>
+      <li><b>6</b><small>Credit hours</small></li>
+      <li><b>18</b><small>Students only</small></li>
+      <li><b>All</b><small>Majors welcome</small></li>
+    </ul>
+  </div>
+</div>
+
+<section id="program">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">The program</p>
+      <h2>Class in the morning. The industry in the afternoon.</h2>
+      <p class="lede">You take two APR courses taught by Alabama faculty at a partner university in Seoul &mdash; then walk out of the classroom and into the places you just studied. Broadcast studios. A search giant's headquarters. A live music show taping. The people who build Korean brands and export Korean culture.</p>
+      <p class="lede">Weekends belong to the rest of the country: a palace in a hanbok, a baseball game with a fight song section, and the coastline of Jeju Island.</p>
+    </div>
+    <div class="stack">
+      <div class="photo"><img src="images/2026/hanbok.jpg" alt="Students in hanbok in front of a palace pavilion in Seoul" loading="lazy"></div>
+      <div class="photo"><img src="images/2026/meal.jpg" alt="The group around a long table at a Korean dinner" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section id="film" class="film">
+  <div class="wrap">
+    <p class="eyebrow">Watch</p>
+    <h2>Three weeks in a hundred seconds.</h2>
+    <p class="sub">Shot by the group on last summer's program &mdash; Seoul, the studios, the coastline, and eighteen people who mostly did not know each other on day one.</p>
+    <div class="frame">
+      <video controls preload="metadata" playsinline poster="images/trip-poster.jpg">
+        <source src="trip-video.mp4" type="video/mp4">
+        Your browser can't play this video.
+      </video>
+    </div>
+  </div>
+</section>
+
+<section id="courses">
+  <div class="wrap">
+    <p class="eyebrow">Courses &middot; 6 credit hours</p>
+    <h2>Two courses, both taught in Korea.</h2>
+    <div class="courses">
+      <article class="course">
+        <span class="code">APR 490 / 590 &middot; 3 credits</span>
+        <h3>Advertising in Korea: From Street to Screens</h3>
+        <p class="who">Dr. Hyoungkoo Khang</p>
+        <p>How Korean advertising moves from subway posters and neighborhood signage to the screens that carry Korean products worldwide.</p>
+      </article>
+      <article class="course">
+        <span class="code">APR 490 / 590 &middot; 3 credits</span>
+        <h3>Public Relations in Korea: From Culture to Global Impact</h3>
+        <p class="who">Dr. Eyun-Jung Ki</p>
+        <p>How Korean organizations build reputation at home and turn cultural strength &mdash; music, film, food, tech &mdash; into global influence.</p>
+      </article>
+    </div>
+    <p class="note"><b>All majors welcome.</b> No prerequisites. Students take both courses for a full six credit hours, and graduate students may enroll at the 590 level.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="industry">
+  <div class="wrap">
+    <p class="eyebrow">Site visits</p>
+    <h2>The syllabus has an address.</h2>
+    <p class="lede">Every unit comes with a visit. Past groups have gone inside the newsrooms, studios, and platforms below &mdash; and sat down with the professionals who run them.</p>
+    <div class="tiles">
+      <div class="tile"><figure><img src="images/2026/kbs.jpg" alt="Students at the KBS broadcasting center in Seoul" loading="lazy">
+        <h3>KBS</h3><p>Korea's public broadcaster, including a taping of its flagship music show.</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/hero.jpg" alt="Students on the MBC Newsdesk anchor set" loading="lazy">
+        <h3>MBC</h3><p>The network's studio floor and the anchor desk of its evening newscast.</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/naver.jpg" alt="Students outside Naver headquarters" loading="lazy">
+        <h3>Naver</h3><p>The search and content platform most of Korea starts its day on.</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/kpopshow.jpg" alt="A live K-pop music show taping seen from the audience" loading="lazy">
+        <h3>A live music show</h3><p>In the audience for a broadcast that ships Korean pop around the world.</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/naverstudy.jpg" alt="Students in a seminar room during a company session" loading="lazy">
+        <h3>Industry sessions</h3><p>Working briefings with Korean practitioners in advertising and PR.</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/dmz.jpg" alt="The group at the DMZ" loading="lazy">
+        <h3>The DMZ</h3><p>A day at the border, and the communication history written along it.</p></figure></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="itinerary">
+  <div class="wrap">
+    <p class="eyebrow">Where you go</p>
+    <h2>Seoul and Jeju every year. The rest changes.</h2>
+    <p class="lede">Two anchors stay fixed on every itinerary. Beyond them, each cohort gets a different corner of the country &mdash; so no two years of this program see the same Korea.</p>
+    <div class="route">
+      <div class="stop">
+        <span class="n">Every year</span>
+        <div><h3>Seoul</h3><p>Home base for three weeks &mdash; classes, company visits, palaces, night markets, and a KBO baseball game.</p></div>
+        <img src="images/2026/walk.jpg" alt="Students walking a Seoul shopping street" loading="lazy">
+      </div>
+      <div class="stop">
+        <span class="n">Every year</span>
+        <div><h3>Jeju Island</h3><p>Volcanic coastline, black-sand beaches, and the calmest days of the trip.</p></div>
+        <img src="images/2026/jeju.jpg" alt="A coastal road on Jeju Island" loading="lazy">
+      </div>
+      <div class="stop varies">
+        <span class="n">New in 2027</span>
+        <div><h3>Gyeonggi &amp; Gangwon Provinces</h3><p>Next summer's group heads into the provinces just outside Seoul and across to the east coast. Recent cohorts went to Gyeongju and Busan instead.</p></div>
+        <img src="images/2026/gyeongju.jpg" alt="A past group at a temple in Gyeongju" loading="lazy">
+      </div>
+    </div>
+    <div class="tiles four">
+      <div class="tile"><figure><img src="images/2026/jejuudo.jpg" alt="Students standing in shallow water off Udo, Jeju" loading="lazy"><p class="cap">A beach day off Udo</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/everland.jpg" alt="Students at the entrance gardens of Everland" loading="lazy"><p class="cap">Everland, day off</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/tea.jpg" alt="Students at a traditional tea ceremony" loading="lazy"><p class="cap">A traditional tea ceremony</p></figure></div>
+      <div class="tile"><figure><img src="images/2026/baseball.jpg" alt="A packed KBO baseball stadium" loading="lazy"><p class="cap">Nine innings, Korean style</p></figure></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="wrap">
+    <p class="eyebrow">Photos</p>
+    <h2>Every cohort, year by year.</h2>
+    <p class="lede">A new album goes up at the end of each summer.</p>
+    <div id="galleryRoot"></div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <p class="eyebrow">Testimonials</p>
+    <h2>What they said when they got home.</h2>
+    <p class="lede">Posted publicly by students on LinkedIn and Instagram after the program.</p>
+    <div id="quotesRoot" class="quotes"></div>
+  </div>
+</section>
+
+<section id="faculty">
+  <div class="wrap">
+    <p class="eyebrow">Who you travel with</p>
+    <h2>Two faculty. Eighteen students. That's the whole group.</h2>
+    <div class="faculty">
+      <div class="prof">
+        <h3>Dr. Eyun-Jung Ki</h3>
+        <p>Professor of Advertising &amp; Public Relations and program director. Teaches the public relations course and leads the program in Korea.</p>
+        <p><a href="mailto:ki@apr.ua.edu">ki@apr.ua.edu</a></p>
+      </div>
+      <div class="prof">
+        <h3>Dr. Hyoungkoo Khang</h3>
+        <p>Professor of Advertising &amp; Public Relations. Teaches the advertising course and co-leads the program.</p>
+        <p><a href="mailto:khang@apr.ua.edu">khang@apr.ua.edu</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="apply" class="apply">
+  <div class="wrap">
+    <p class="eyebrow">Apply</p>
+    <h2>Eighteen seats for summer 2027.</h2>
+    <p class="lede">Applications run through UA Education Abroad. Program cost, housing, and the application deadline are posted on the program's page there.</p>
+    <div class="steps">
+      <div class="step">
+        <b>Step 1</b>
+        <h3>Read the details</h3>
+        <p>Dates, cost, housing, and what's included live on studyabroad.ua.edu.</p>
+      </div>
+      <div class="step">
+        <b>Step 2</b>
+        <h3>Apply online</h3>
+        <p>Submit the Education Abroad application for UA in South Korea, Summer 2027.</p>
+      </div>
+      <div class="step">
+        <b>Step 3</b>
+        <h3>Talk to us</h3>
+        <p>Email Dr. Ki with any question at all &mdash; passports, budgets, whether your major fits. It does.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn" href="https://studyabroad.ua.edu" target="_blank" rel="noopener">Go to Education Abroad</a>
+      <a class="btn ghost" style="color:var(--band-ink);border-color:rgba(255,255,255,.6)" href="https://www.instagram.com/uainsouthkorea/" target="_blank" rel="noopener">See @uainsouthkorea</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><strong style="color:var(--band-ink)">UA in South Korea</strong><br>Advertising &amp; Public Relations<br>The University of Alabama</div>
+    <div>Dr. Eyun-Jung Ki<br><a href="mailto:ki@apr.ua.edu">ki@apr.ua.edu</a></div>
+    <div>Dr. Hyoungkoo Khang<br><a href="mailto:khang@apr.ua.edu">khang@apr.ua.edu</a></div>
+    <div><a href="https://www.instagram.com/uainsouthkorea/" target="_blank" rel="noopener">@uainsouthkorea</a><br><a href="https://studyabroad.ua.edu" target="_blank" rel="noopener">studyabroad.ua.edu</a></div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   EDIT HERE EACH YEAR
+   ------------------------------------------------------------
+   PHOTOS: put the new year's pictures in  images/2027/  then add
+   a block at the TOP of the list below. Newest year goes first.
+   Each photo is:  { src: "images/2027/filename.jpg", cap: "caption" }
+   ============================================================ */
+var GALLERY = [
+  {
+    year: "2026",
+    note: "Summer 2026 &middot; Seoul, Gyeongju, Busan, Jeju",
+    photos: [
+      { src: "images/2026/hanbok.jpg",     cap: "Hanbok at the palace" },
+      { src: "images/2026/mural.jpg",      cap: "The K-pop mural wall" },
+      { src: "images/2026/kbs.jpg",        cap: "KBS" },
+      { src: "images/2026/hero.jpg",       cap: "The MBC anchor desk" },
+      { src: "images/2026/naver.jpg",      cap: "Naver headquarters" },
+      { src: "images/2026/kpopshow.jpg",   cap: "A live music show" },
+      { src: "images/2026/adclass.jpg",    cap: "Advertising class in Seoul" },
+      { src: "images/2026/prclass.jpg",    cap: "Public relations class" },
+      { src: "images/2026/naverstudy.jpg", cap: "Inside Naver" },
+      { src: "images/2026/tea.jpg",        cap: "Tea ceremony" },
+      { src: "images/2026/meal.jpg",       cap: "Group dinner" },
+      { src: "images/2026/baseball.jpg",   cap: "KBO baseball" },
+      { src: "images/2026/everland.jpg",   cap: "Everland" },
+      { src: "images/2026/dmz.jpg",        cap: "The DMZ" },
+      { src: "images/2026/gyeongju.jpg",   cap: "Gyeongju" },
+      { src: "images/2026/jeju.jpg",       cap: "Jeju's coastal road" },
+      { src: "images/2026/jejuudo.jpg",    cap: "Udo Island" },
+      { src: "images/2026/walk.jpg",       cap: "A Seoul street" }
+    ]
+  },
+  {
+    year: "2025",
+    note: "Summer 2025 &middot; Seoul and Jeju",
+    photos: [
+      { src: "images/2025/hanbok.jpg", cap: "Hanbok at Gyeongbokgung" },
+      { src: "images/2025/kpop-group.jpg", cap: "Meeting a K-pop group" },
+      { src: "images/2025/sbs-theshow.jpg", cap: "SBS The Show" },
+      { src: "images/2025/kbs-studio.jpg", cap: "Inside a KBS studio" },
+      { src: "images/2025/sbs.jpg", cap: "SBS headquarters" },
+      { src: "images/2025/briefing.jpg", cap: "In the styling studio" },
+      { src: "images/2025/class.jpg", cap: "Class discussion" },
+      { src: "images/2025/campus.jpg", cap: "Yonsei University" },
+      { src: "images/2025/musicshow.jpg", cap: "KBS Music Bank" },
+      { src: "images/2025/theater.jpg", cap: "The Painters show" },
+      { src: "images/2025/uniforms.jpg", cap: "Everland" },
+      { src: "images/2025/cooking.jpg", cap: "Making kimchi" },
+      { src: "images/2025/dinner.jpg", cap: "Roll Tide in Jeju" },
+      { src: "images/2025/warmemorial.jpg", cap: "The DMZ" },
+      { src: "images/2025/hanok.jpg", cap: "Jeonju Hanok Village" },
+      { src: "images/2025/jeju-air.jpg", cap: "Jeju Island from the air" },
+      { src: "images/2025/jeju-coast.jpg", cap: "The Jeju coastline" },
+      { src: "images/2025/beach.jpg", cap: "A beach day" },
+      { src: "images/2025/island-tour.jpg", cap: "Rail bike" }
+    ]
+  }
+];
+
+/* ============================================================
+   TESTIMONIALS — add new ones at the top of this list.
+   ============================================================ */
+var TESTIMONIALS = [
+  {
+    text: "To study abroad is an act of courage, a quest for knowledge and an appreciation for the profound beauty of other cultures. I am leaving this program with a broadened global perspective and insight into international communication and business.",
+    name: "Karmin Matthews",
+    role: "Advertising student, UA &middot; LinkedIn"
+  },
+  {
+    text: "I traveled to South Korea to study and can confirm, the best learning happens outside of the classroom. Highlights include visiting Yonsei University and touring NAVER, MBC, KBS, and SBS. Living in Seoul gave me a sense of peace and inspired me to make the most of each day.",
+    name: "Alyssa Latham",
+    role: "Director of Social Media, American Advertising Federation &middot; LinkedIn"
+  },
+  {
+    text: "As a nursing major, this experience let me step outside my usual field and build skills in communication, creativity, cultural awareness, and adaptability. This trip showed me that experiences outside of your major can shape the professional you become.",
+    name: "Chloe Sacks",
+    role: "Nursing student, UA &middot; LinkedIn"
+  },
+  {
+    text: "Not gonna lie, I was scared going on this trip, but throughout it I made a lot of memories. I was able to meet new friends and experience an entirely different culture from my own. The best program at UA by far.",
+    name: "@ahh.its.jaya",
+    role: "Instagram"
+  },
+  {
+    text: "There are no words to describe what this trip has meant to me. Korea is great and amazing and spectacular, but the people I met are really what stays in my mind. The biggest thank you to Dr. Ki for what feels like letting us into her family for three weeks.",
+    name: "@lawsynn_",
+    role: "Instagram"
+  },
+  {
+    text: "This was part of the greatest summer I've had so far. Not only did I learn a bunch about Korean culture and business, I also started a bunch more friendships. I'll hopefully see Korea again soon.",
+    name: "@la_la_marina_",
+    role: "Instagram"
+  }
+];
+
+(function () {
+  var g = document.getElementById("galleryRoot");
+  GALLERY.forEach(function (y) {
+    var block = document.createElement("div");
+    block.className = "yearblock";
+    var head = '<div class="yearhead"><h3>' + y.year + '</h3><span>' + (y.note || "") + "</span></div>";
+    var body;
+    if (y.photos && y.photos.length) {
+      body = '<div class="grid">' + y.photos.map(function (p) {
+        return '<figure><img src="' + p.src + '" alt="' + p.cap.replace(/"/g, "") +
+               '" loading="lazy"><figcaption>' + p.cap + "</figcaption></figure>";
+      }).join("") + "</div>";
+    } else {
+      body = '<p class="soon">Photos from ' + y.year + " are being added.</p>";
+    }
+    block.innerHTML = head + body;
+    g.appendChild(block);
+  });
+
+  var q = document.getElementById("quotesRoot");
+  TESTIMONIALS.forEach(function (t) {
+    var el = document.createElement("blockquote");
+    el.className = "quote";
+    el.innerHTML = '<span class="qmark">&ldquo;</span><p>' + t.text +
+      '</p><div class="who"><b>' + t.name + "</b><span>" + t.role + "</span></div>";
+    q.appendChild(el);
+  });
+})();
+</script>
+
+</body>
+</html>
