@@ -9,6 +9,7 @@
 <meta property="og:description" content="Three weeks studying advertising and public relations in Korea. Six credits. Seoul and Jeju. May 27 - June 17, 2027. Apply by October 30.">
 <meta property="og:image" content="y2026-hanbok.jpg">
 <meta property="og:type" content="website">
+<link rel="icon" href="logo.jpg">
 </head>
 <body>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap">
@@ -61,9 +62,10 @@
               font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
   .nav{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:30}
   .nav .wrap{display:flex;align-items:center;gap:30px;height:84px}
-  .mark{display:flex;align-items:baseline;gap:14px;white-space:nowrap}
-  .mark b{font-family:var(--sans);font-size:27px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
-  .mark span{font-size:16.5px;font-weight:600;color:var(--body);border-left:1px solid var(--hair);padding-left:14px}
+  .mark{display:flex;align-items:center;gap:14px;white-space:nowrap;text-decoration:none}
+  .mark img{width:46px;height:46px;border-radius:9px;flex:0 0 46px}
+  .mark b{font-family:var(--sans);font-size:22px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
+  .herologo{width:132px;height:132px;border-radius:16px;margin-bottom:28px;border:1px solid var(--line)}
   .navlinks{display:flex;gap:23px;margin-left:auto;font-size:16px;font-weight:700}
   .navlinks a{text-decoration:none;color:var(--body)}
   .navlinks a:hover{color:var(--ink)}
@@ -178,15 +180,19 @@
   .quote details p{margin-top:16px;font-size:16.5px;color:var(--body);line-height:1.65}
 
   /* ── faculty ── */
-  .facwrap{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:start}
-  .facwrap .sub{color:var(--muted);margin-top:26px}
-  .prof + .prof{margin-top:36px;padding-top:36px;border-top:1px solid var(--line)}
+  .profs{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:58px}
+  .prof{background:var(--paper);border-top:4px solid var(--crimson);padding:34px 38px 36px}
+  .prof .ph{width:112px;height:112px;border-radius:50%;object-fit:cover;object-position:50% 20%;
+            margin-bottom:22px;background:var(--band)}
+  .prof .bio{margin:18px 0 0;font-size:16.5px;color:var(--body)}
+  .plinks{margin-top:26px;padding-top:22px;border-top:1px solid var(--line);
+          display:flex;flex-wrap:wrap;gap:10px 26px}
   .prof .role{font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
               color:var(--crimson);margin-bottom:12px}
   .prof h3{font-size:29px;margin-bottom:6px}
   .prof .title{color:var(--muted);margin-bottom:16px}
-  .prof a{color:var(--crimson);font-weight:700;font-size:16.5px;text-decoration:none;
-          border-bottom:1px solid var(--crimson);padding-bottom:2px;margin-right:26px}
+  .prof a{color:var(--crimson);font-weight:700;font-size:16px;text-decoration:none;
+          border-bottom:1px solid var(--crimson);padding-bottom:2px}
 
   /* ── closing ── */
   .apply{background:var(--crimson);color:#fff}
@@ -232,7 +238,9 @@
     .hero{grid-template-columns:1fr}
     .hero .txt{padding:56px 24px;max-width:none}
     .hero figure{min-height:380px}
-    .sechead,.facwrap,.apply .grid2{grid-template-columns:1fr;gap:28px}
+    .sechead,.apply .grid2{grid-template-columns:1fr;gap:28px}
+    .profs{grid-template-columns:1fr;gap:26px}
+    .herologo{width:104px;height:104px}
     .stats ul{grid-template-columns:1fr 1fr}
     .stats li{padding:30px 24px}
     .stats li:nth-child(3){border-left:0}
@@ -250,7 +258,7 @@
 
 <nav class="nav">
   <div class="wrap">
-    <div class="mark"><b>UA</b><span>in South Korea</span></div>
+    <a class="mark" href="#"><img src="logo.jpg" alt="UA in South Korea program logo"><b>UA in South Korea</b></a>
     <div class="navlinks">
       <a href="#program">The program</a>
       <a href="#experiences">Experiences</a>
@@ -265,6 +273,7 @@
 
 <header class="hero">
   <div class="txt">
+    <img class="herologo" src="logo.jpg" alt="UA in South Korea study abroad program logo">
     <div class="kick">Summer 2027 &middot; May 27&ndash;June 17</div>
     <h1>Korea,<br><em>up close.</em></h1>
     <p class="sub">Study advertising and public relations in the studios, agencies and streets where Korean culture is made &mdash; and carried to the rest of the world.</p>
@@ -466,22 +475,32 @@
 <section id="faculty" class="band">
   <div class="wrap">
     <p class="eyebrow">05 / Our faculty</p>
-    <div class="facwrap">
-      <div>
-        <h2 style="font-size:clamp(34px,4.7vw,56px);line-height:1.03">Learn with<br>your UA professors.</h2>
-        <p class="sub">Department of Advertising &amp; Public Relations<br>The University of Alabama</p>
+    <div class="sechead">
+      <h2>Learn with<br>your UA professors.</h2>
+      <div class="aside">
+        <p>Both courses are taught by full professors from the Department of Advertising &amp; Public Relations, who travel with the group for all three weeks.</p>
       </div>
-      <div>
-        <div class="prof">
-          <div class="role">Program director</div>
-          <h3>Dr. Eyun-Jung Ki</h3>
-          <div class="title">Professor of Advertising &amp; Public Relations</div>
+    </div>
+    <div class="profs">
+      <div class="prof">
+        <img class="ph" src="faculty-ki.jpg" alt="Dr. Eyun-Jung Ki" loading="lazy">
+        <div class="role">Program director</div>
+        <h3>Dr. Eyun-Jung Ki</h3>
+        <div class="title">Professor of Advertising &amp; Public Relations</div>
+        <p class="bio">Strategic communication and the relationships organizations build with their publics &mdash; and how emerging technology, artificial intelligence included, is changing that work. She directs the Korea program and teaches the public relations course on site in Seoul.</p>
+        <div class="plinks">
+          <a href="https://sites.ua.edu/eyunjungki/" target="_blank" rel="noopener">UA faculty profile &#8599;</a>
           <a href="mailto:ki@apr.ua.edu">ki@apr.ua.edu</a>
         </div>
-        <div class="prof">
-          <div class="role">Program co-director</div>
-          <h3>Dr. Hyoungkoo Khang</h3>
-          <div class="title">Professor of Advertising &amp; Public Relations</div>
+      </div>
+      <div class="prof">
+        <img class="ph" src="faculty-khang.jpg" alt="Dr. Hyoungkoo Khang" loading="lazy">
+        <div class="role">Program co-director</div>
+        <h3>Dr. Hyoungkoo Khang</h3>
+        <div class="title">Professor of Advertising &amp; Public Relations</div>
+        <p class="bio">Advertising and media psychology &mdash; why audiences engage with messages the way they do, across technologies and cultures. A Korea Foundation Fellow, he teaches the advertising course on site in Seoul.</p>
+        <div class="plinks">
+          <a href="https://cis.ua.edu/people/hyoungkoo-khang/" target="_blank" rel="noopener">UA faculty profile &#8599;</a>
           <a href="mailto:khang@apr.ua.edu">khang@apr.ua.edu</a>
         </div>
       </div>
